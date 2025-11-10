@@ -6,8 +6,16 @@ const Gallery1 = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-12 max-w-7xl">
+    <div className="min-h-screen bg-background relative">
+      <div 
+        className="absolute inset-0 opacity-30"
+        style={{
+          backgroundImage: 'url(https://cdn.poehali.dev/files/8d03c0bd-10b0-42f2-b8d9-26d4c96ec3f0.jpg)',
+          backgroundRepeat: 'repeat',
+          backgroundSize: 'auto'
+        }}
+      />
+      <div className="container mx-auto px-4 py-12 max-w-7xl relative z-10">
         <div className="mb-12 text-center animate-fade-in">
           <h1 className="md:text-6xl mb-4 text-[#f4b8dd] text-sm font-bold">Привет котенок! ♥</h1>
           <p className="text-lg text-[#e1b894]">я решила как-то тебя удивить, и сделала сайт. он может кривой, но я честно пыталась. жмай своей лапкой на следующую страничку </p>
