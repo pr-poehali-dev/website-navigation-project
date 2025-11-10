@@ -15,19 +15,14 @@ const Gallery1 = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {[1, 2, 3, 4, 5, 6].map((item) => (
-            <div
-              key={item}
-              className="aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer"
-            >
-              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-muted">
-                <span className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity">
-                  📷
-                </span>
-              </div>
+        <div className="flex justify-center mb-16">
+          <div className="w-full max-w-2xl aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer">
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-muted">
+              <span className="text-8xl opacity-20 group-hover:opacity-30 transition-opacity">
+                📷
+              </span>
             </div>
-          ))}
+          </div>
         </div>
 
         <div className="flex justify-center gap-4">
