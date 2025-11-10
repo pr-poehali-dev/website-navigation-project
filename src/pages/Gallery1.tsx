@@ -6,15 +6,14 @@ const Gallery1 = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-background relative">
-      <div 
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: 'url(https://cdn.poehali.dev/files/8d03c0bd-10b0-42f2-b8d9-26d4c96ec3f0.jpg)',
-          backgroundRepeat: 'repeat',
-          backgroundSize: 'auto'
-        }}
-      />
+    <div 
+      className="min-h-screen relative"
+      style={{
+        backgroundImage: 'url(https://cdn.poehali.dev/files/8d03c0bd-10b0-42f2-b8d9-26d4c96ec3f0.jpg)',
+        backgroundRepeat: 'repeat',
+        backgroundSize: 'auto'
+      }}
+    >
       <div className="container mx-auto px-4 py-12 max-w-7xl relative z-10">
         <div className="mb-12 text-center animate-fade-in">
           <h1 className="md:text-6xl mb-4 text-[#f4b8dd] text-sm font-bold">Привет котенок! ♥</h1>
