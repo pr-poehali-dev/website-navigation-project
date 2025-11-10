@@ -9,18 +9,29 @@ const Gallery2 = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 max-w-7xl flex flex-col">
         <div className="grid grid-cols-3 gap-6 mb-auto">
-          {[1, 2, 3].map((item) => (
-            <div
-              key={item}
-              className="aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer"
-            >
-              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-muted">
-                <span className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity">
-                  📷
-                </span>
-              </div>
+          <div className="aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer">
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-muted">
+              <span className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity">
+                📷
+              </span>
             </div>
-          ))}
+          </div>
+          
+          <div className="aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer">
+            <img 
+              src="https://cdn.poehali.dev/files/5a44b714-f646-43ce-8fb7-8d009b819245.jpg" 
+              alt="Фото"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          
+          <div className="aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer">
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-muted">
+              <span className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity">
+                📷
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className="mt-12 text-center animate-fade-in mb-8">
