@@ -7,15 +7,9 @@ const Gallery2 = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-12 max-w-7xl">
-        <div className="mb-12 text-center animate-fade-in">
-          <p className="text-muted-foreground text-lg">
-            Добавьте свои фотографии и описание
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {[1, 2, 3, 4, 5, 6].map((item) => (
+      <div className="container mx-auto px-4 py-12 max-w-7xl flex flex-col">
+        <div className="grid grid-cols-3 gap-6 mb-auto">
+          {[1, 2, 3].map((item) => (
             <div
               key={item}
               className="aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer"
@@ -27,6 +21,12 @@ const Gallery2 = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center animate-fade-in mb-8">
+          <p className="text-muted-foreground text-lg">
+            Добавьте свои фотографии и описание
+          </p>
         </div>
 
         <div className="flex justify-center gap-4">
