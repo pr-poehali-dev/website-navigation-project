@@ -17,11 +17,11 @@ const Gallery1 = () => {
 
         <div className="flex justify-center mb-16">
           <div className="w-full max-w-2xl aspect-square bg-secondary rounded-lg overflow-hidden hover-scale group cursor-pointer">
-            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-muted">
-              <span className="text-8xl opacity-20 group-hover:opacity-30 transition-opacity">
-                📷
-              </span>
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/60288abd-4779-4a4e-979e-39f9aa7e31d9.jpg" 
+              alt="Котята"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
