@@ -9,9 +9,7 @@ const Gallery1 = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 max-w-7xl">
         <div className="mb-12 text-center animate-fade-in">
-          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
-            Галерея 1
-          </h1>
+          <h1 className="md:text-6xl mb-4 text-[#f4b8dd] text-sm font-bold">Привет котенок! <3</h1>
           <p className="text-muted-foreground text-lg">
             Добавьте свои фотографии и описание
           </p>
