@@ -27,9 +27,9 @@ const Gallery1 = () => {
           <Button
             onClick={() => navigate('/gallery-2')}
             size="lg"
-            className="gap-2 hover-scale"
+            className="gap-2 hover-scale bg-[#f4b8dd] hover:bg-[#e5a8cd] text-white rounded-full px-8"
           >
-            Следующая страница
+            Далее
             <Icon name="ArrowRight" size={20} />
           </Button>
         </div>
