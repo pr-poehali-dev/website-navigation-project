@@ -10,9 +10,7 @@ const Gallery1 = () => {
       <div className="container mx-auto px-4 py-12 max-w-7xl">
         <div className="mb-12 text-center animate-fade-in">
           <h1 className="md:text-6xl mb-4 text-[#f4b8dd] text-sm font-bold">Привет котенок! ♥</h1>
-          <p className="text-muted-foreground text-lg">
-            Добавьте свои фотографии и описание
-          </p>
+          <p className="text-lg text-[#e1b894]">я решила как-то тебя удивить, и сделала сайт. он может кривой, но я честно пыталась</p>
         </div>
 
         <div className="flex justify-center mb-16">
